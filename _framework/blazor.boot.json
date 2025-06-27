@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "atividadeExtensionista",
   "resources": {
-    "hash": "sha256-AmAgYtoCOE0dMZ+8/tJrN/QN9BUZIxtLNCmSI87tzbc=",
+    "hash": "sha256-kthI7v0ZSD2izVeNJiHr/iKls1ogzTHtoj0u4J1xQP8=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.o6rkmqrueg.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.jcafy9fy3t.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -34,7 +34,7 @@
       "System.Text.Json.u93pa0l0y4.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.3zydt3n8n9.wasm": "System.Text.RegularExpressions.wasm",
       "System.Private.CoreLib.9u9y5a01f5.wasm": "System.Private.CoreLib.wasm",
-      "atividadeExtensionista.38smw8wzax.wasm": "atividadeExtensionista.wasm",
+      "atividadeExtensionista.ib4n23beo1.wasm": "atividadeExtensionista.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.rtblh4npr3.js": "dotnet.native.js",
       "dotnet.native.aqhezbunpl.wasm": "dotnet.native.wasm",
@@ -91,7 +91,7 @@
       "System.Text.Encodings.Web.j8jbnca1on.wasm": "sha256-3cJRUrFjSoiaGlI3OmHNndawtN8Y5lEgLHYI76jlAvo=",
       "System.Text.Json.u93pa0l0y4.wasm": "sha256-0nbwSDJN6TofCR7dRVJthNFoOU5NdBoyzFtHdVa6lXs=",
       "System.Text.RegularExpressions.3zydt3n8n9.wasm": "sha256-sXTH9c57ccmOHrE+Bpsiewg0xWGtHrbl8KBKpTJW9VA=",
-      "atividadeExtensionista.38smw8wzax.wasm": "sha256-ncejgzriANCJQ+HAbZASPPBVcu41f2d6PfYQLBWxVSQ="
+      "atividadeExtensionista.ib4n23beo1.wasm": "sha256-YixTLhbK2sWTU/IegZvzwH60Yl7JAo5x3w6p0pq42fg="
     }
   },
   "cacheBootResources": true,
