@@ -1,6 +1,6 @@
 ﻿@page "/"
 
-<div class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
+<div id="primeira" class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
     <!-- Seção Principal -->
     <section class="flex flex-col items-center text-center max-w-xl gap-8">
         <h1 class="font-serif font-extrabold text-roxo text-5xl sm:text-6xl leading-tight">
@@ -10,12 +10,12 @@
     </section>
 
     <!-- Botão de Ação -->
-    <button class="bg-roxo text-white text-lg font-medium px-10 py-4 rounded-2xl transition duration-300 hover:bg-purple-700 shadow-md">
+    <button @onclick="@(() => ScrollTo("segundo"))" class="bg-roxo text-white text-lg font-medium px-10 py-4 rounded-2xl transition duration-300 hover:bg-purple-700 shadow-md">
         Começar
     </button>
 </div>
 
-<div class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
+<div id="segundo" class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
     <!-- Seção Principal -->
     <section class="flex flex-col items-center text-center max-w-xl gap-8">
         <h1 class="font-serif font-extrabold text-roxo text-5xl sm:text-6xl leading-tight">
@@ -25,7 +25,62 @@
     </section>
 
     <!-- Botão de Ação -->
-    <button class="bg-roxo text-white text-lg font-medium px-10 py-4 rounded-2xl transition duration-300 hover:bg-purple-700 shadow-md">
-        Começar
+    <button @onclick="@(() => ScrollTo("terceiro"))" class="bg-roxo text-white text-light text-lg px-[60px] py-3 rounded-2xl transition duration-300 hover:bg-background shadow-md">
+        Passo 2
     </button>
 </div>
+
+<div id="terceiro" class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
+    <!-- Seção Principal -->
+    <section class="flex flex-col items-center text-center max-w-xl gap-8">
+        <h1 class="font-serif font-extrabold text-roxo text-5xl sm:text-6xl leading-tight">
+            2- Aceitar termos
+        </h1>
+        <img src="img/aceitarTermos.png" alt="Lobo apontando para cima" class="max-h-[60vh] w-auto" />
+    </section>
+
+    <!-- Botão de Ação -->
+    <button @onclick="@(() => ScrollTo("quarto"))" class="bg-roxo text-white text-light text-lg px-[60px] py-3 rounded-2xl transition duration-300 hover:bg-background shadow-md">
+        Passo 3
+    </button>
+</div>
+
+<div id="quarto" class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
+    <!-- Seção Principal -->
+    <section class="flex flex-col items-center text-center max-w-xl gap-8">
+        <h1 class="font-serif font-extrabold text-roxo text-5xl sm:text-6xl leading-tight">
+            3- Adicionar número
+        </h1>
+        <img src="img/addnumero.png" alt="Lobo apontando para cima" class="max-h-[60vh] w-auto" />
+    </section>
+
+    <!-- Botão de Ação -->
+    <button @onclick="@(() => ScrollTo("quinto"))" class="bg-roxo text-white text-light text-lg px-[60px] py-3 rounded-2xl transition duration-300 hover:bg-background shadow-md">
+        Passo 4
+    </button>
+</div>
+
+<div id="quinto" class="flex flex-col items-center justify-center min-h-screen px-6 gap-12 bg-gray-50">
+    <!-- Seção Principal -->
+    <section class="flex flex-col items-center text-center max-w-xl gap-8">
+        <h1 class="font-serif font-extrabold text-roxo text-5xl sm:text-6xl leading-tight">
+            4- Pronto para uso
+        </h1>
+        <img src="img/pronto.png" alt="Lobo apontando para cima" class="max-h-[60vh] w-auto" />
+    </section>
+
+    <!-- Botão de Ação -->
+    <button @onclick="@(() => ScrollTo("primeira"))" class="bg-roxo text-white text-light text-lg px-[60px] py-3 rounded-2xl transition duration-300 hover:bg-background shadow-md">
+        Voltar ao início
+    </button>
+</div>
+
+@code
+{
+    [Inject] public IJSRuntime JsRuntime { get; set; } = null!;
+
+    private async Task ScrollTo(string id)
+    {
+        await JsRuntime.InvokeVoidAsync("scrollToId", id);
+    }
+}

@@ -13,29 +13,29 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = atividadeExtensionista
 build_property.RootNamespace = atividadeExtensionista
-build_property.ProjectDir = /Users/alysonryanullirsch/Documents/ProjetosCsharp/atividadeExtensionista/
+build_property.ProjectDir = C:\Projetos\atividadeExtensionista\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/alysonryanullirsch/Documents/ProjetosCsharp/atividadeExtensionista
+build_property.MSBuildProjectDirectory = C:\Projetos\atividadeExtensionista
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/atividadeExtensionista/App.razor]
+[C:/Projetos/atividadeExtensionista/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/atividadeExtensionista/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[C:/Projetos/atividadeExtensionista/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/atividadeExtensionista/_Imports.razor]
+[C:/Projetos/atividadeExtensionista/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/atividadeExtensionista/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-lwfnnjjkhm
+[C:/Projetos/atividadeExtensionista/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hewhllkabb

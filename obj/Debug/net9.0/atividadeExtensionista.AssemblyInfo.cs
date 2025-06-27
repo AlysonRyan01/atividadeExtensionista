@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("atividadeExtensionista")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e75b0bf999450c3b7afe824fbd78028286a9fd5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85c6d48f066b059a917683da9bfd0a9361d617c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("atividadeExtensionista")]
 [assembly: System.Reflection.AssemblyTitleAttribute("atividadeExtensionista")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
